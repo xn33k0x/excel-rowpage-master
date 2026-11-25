@@ -1,0 +1,7 @@
+body { width: 310px; margin: 0; color: #142e29; background: #fafdfb; font: 14px/1.5 "Segoe UI", sans-serif; }
+main { padding: 18px; border-top: 4px solid #196752; } h1 { margin: 0; font-size: 20px; }
+p { margin: 10px 0 16px; } button, textarea { font: inherit; }
+button { background: #195c4b; color: white; border: 0; border-radius: 5px; padding: 7px 12px; cursor: pointer; }
+button:disabled { opacity: .45; } textarea { width: 100%; box-sizing: border-box; margin-bottom: 10px; }
+
+button { margin: 2px 2px 2px 0; } [hidden] { display:none!important; }

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Excel Rowpage Master v1 par Nikolas Martin",
+  "version": "1.0.1",
+  "description": "Transférez une ligne Excel dans une fiche client et récupérez son ID LADROT dans la colonne A.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardRead",
+    "contextMenus",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_title": "Transférer la ligne ou récupérer l’ID LADROT",
+    "default_popup": "fenetre.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      }
+    }
+  },
+  "background": {
+    "service_worker": "arriere-plan.js"
+  },
+  "author": "Nikolas Martin"
+}
